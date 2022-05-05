@@ -1,3 +1,10 @@
+.body{
+    background-image:img src: ("images/paper_bg.png");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #titleASDF{
 	color: blue;
 }
