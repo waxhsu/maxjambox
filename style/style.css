@@ -2,6 +2,12 @@
 	color: blue;
 }
 
-.bodyText{
+.bodyText1{
 	color: mediumpurple;
+}
+
+.bodyText2{
+	text-align: right;
+	color: orangered;
+	text-shadow: greenyellow;
 }
