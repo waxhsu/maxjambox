@@ -1,21 +1,40 @@
-.body{
-    background-image:img src: ("images/paper_bg.png");
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+#titleText{
+	color: black;
+	font-family: cursive;
 }
 
-#titleASDF{
-	color: blue;
+.selectionText{
+	color: sandybrown;
+	font-size: x-large;
+	font-family: monospace;
 }
 
-.bodyText1{
-	color: mediumpurple;
-}
-
-.bodyText2{
+.bodyText{
 	text-align: center;
 	color: orangered;
 	text-shadow: greenyellow;
 }
+
+
+.box {
+	background: lightgrey;
+	padding: 100px;
+	margin: 100px;
+}
+
+
+body {
+	background-color: grey;
+	background-image: url('../images/paper_bg.png');
+}
+
+
+	
+}
+
+
+
+
+
+
 
