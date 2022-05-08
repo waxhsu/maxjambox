@@ -1,4 +1,17 @@
-#titleText{
+body {
+	background-color: grey;
+	background-image: url('../images/paper_bg.png');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+p {
+	color: black;
+	font-family: monospace;
+	font-size: 21px;
+}
+
+h1 {
 	color: black;
 	font-family: cursive;
 }
@@ -7,31 +20,27 @@
 	color: sandybrown;
 	font-size: x-large;
 	font-family: monospace;
+	text-shadow: greenyellow;
+	text-align: center;
 }
 
 .bodyText{
 	text-align: center;
-	color: orangered;
+	color: black;
 	text-shadow: greenyellow;
 }
 
 
 .box {
-	background: lightgrey;
+	background: transparent;
 	padding: 100px;
 	margin: 100px;
 }
 
-
-body {
-	background-color: grey;
-	background-image: url('../images/paper_bg.png');
+.Absolute-Center {
+	height: 160px;
+	margin: 0 auto;
 }
-
-
-	
-}
-
 
 
 
