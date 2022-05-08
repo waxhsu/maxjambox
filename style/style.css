@@ -8,11 +8,23 @@ body {
 
 
 .selectionText{
-	color: sandybrown;
+	color: black;
 	font-size: 18px;
-	font-family: "Work Sans", sans-serif;
-	text-shadow: greenyellow;
+	font-family: monospace;
 	text-align: center;
+}
+
+
+
+a {
+	color: black;
+
+}
+
+
+a:hover {
+	color: dimgrey;
+
 }
 
 
@@ -41,14 +53,13 @@ h1 {
 	margin: 100px;
 }
 
-.Absolute-Center {
-	height: 160px;
-	margin: 0 auto;
-}
-
 
 .container {
-	background: darkslategrey;
+	background: transparent;
+	width: 70%;
+	margin: 0 auto;
+	max-width: 700px;
+	min-width: 400px;
 }
 
 
