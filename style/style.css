@@ -5,10 +5,21 @@ body {
 	background-size: cover;
 }
 
+
+
+.selectionText{
+	color: sandybrown;
+	font-size: 18px;
+	font-family: "Work Sans", sans-serif;
+	text-shadow: greenyellow;
+	text-align: center;
+}
+
+
 p {
 	color: black;
-	font-family: monospace;
-	font-size: 21px;
+	font-family: sans-serif;
+	font-size: 1.7rem;
 }
 
 h1 {
@@ -16,13 +27,6 @@ h1 {
 	font-family: cursive;
 }
 
-.selectionText{
-	color: sandybrown;
-	font-size: x-large;
-	font-family: monospace;
-	text-shadow: greenyellow;
-	text-align: center;
-}
 
 .bodyText{
 	text-align: center;
@@ -43,7 +47,9 @@ h1 {
 }
 
 
-
+.container {
+	background: darkslategrey;
+}
 
 
 
