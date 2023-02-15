@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { JjDeDaGg } from './JjDeDaGg.js';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <JjDeDaGg />
     <App />
   </React.StrictMode>
 );
