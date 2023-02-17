@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+import logo from './newLogo.gif';
 import './App.css';
-// import { JjDeDaGg } from './JjDeDaGg.js';
+import { JjDeDaGg } from './JjDeDaGg.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <JjDeDaGg /> */}
+
         <img src={logo} className="App-logo" alt="logo" />
+        
+        {<JjDeDaGg />}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         
