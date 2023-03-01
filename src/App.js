@@ -1,6 +1,5 @@
 import logo from './newLogo.gif';
 import './App.css';
-import { JjDeDaGg } from './JjDeDaGg.js';
 
 function App() {
   return (
@@ -8,10 +7,13 @@ function App() {
       <header className="App-header">
 
         <img src={logo} className="App-logo" alt="logo" />
-        
-        {<JjDeDaGg />}
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I am max
+          {/* slide off to left */}
+          software engineer
+          pixel artist
+          dancer
         
         </p>
         <a

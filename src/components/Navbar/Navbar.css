@@ -1,0 +1,27 @@
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  border: green solid 1px;
+}
+
+
+/* .Navbar-logo {
+  height: 10vmin;
+  pointer-events: none;
+  border: red solid 1px;
+} */
+
+.Navbar-options {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Navbar-link {
+  color: #61dafb;
+}
