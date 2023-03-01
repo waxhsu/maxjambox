@@ -1,7 +1,12 @@
-.Navbar {
+
+
+
+.Navbar{
   display: flex;
-  justify-content: space-around;
-  border: green solid 1px;
+  justify-content: space-evenly;
+  background-color: #282c34;
+  position: sticky;
+  top: 0;
 }
 
 
@@ -12,14 +17,21 @@
 } */
 
 .Navbar-options {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #61dafb;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .Navbar-link {

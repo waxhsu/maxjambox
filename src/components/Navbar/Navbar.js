@@ -5,24 +5,23 @@ function Navbar(){
   return (
     <div className="Navbar">
         {/* <img src={logo} className="Navbar-logo" alt="logo" /> */}
-        <div>
             <div>
-                <a className="App-link" href="" target="_blank">
+                <a className="Navbar-options" href="" target="_blank">
                 Projects
                 </a>
             </div>
             <div>
-                <a className="App-link" href="" target="_blank">
+                <a className="Navbar-options" href="" target="_blank">
                 About
                 </a>
             </div>
             <div>
-                <a className="App-link" href="" target="_blank">
+                <a className="Navbar-options" href="" target="_blank">
                 Contact
                 </a>
             </div>
-        </div>
     </div>
+
 
   );
 }

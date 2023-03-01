@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar/Navbar.js'
+import Projects from './components/Projects/Projects.js'
+import About from './components/About/About.js'
+import Contact from './components/Contact/Contact.js'
+import Skills from './components/Skills/Skills.js'
+import Footer from './components/Footer/Footer.js'
 
 import { JjDeDaGg } from './JjDeDaGg.js';
 
@@ -12,6 +17,11 @@ root.render(
   <React.StrictMode>
    <Navbar />
     <App />
+    <Projects />
+    <About />
+    <Skills />
+    <Contact />
+    <Footer />
     <JjDeDaGg />
  
   </React.StrictMode>
