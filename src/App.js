@@ -1,21 +1,22 @@
-import logo from './newLogo.gif';
 import './App.css';
+import Navbar from './components/Navbar/Navbar.js'
+import Landing from './components/Landing/Landing.js'
+import Projects from './components/Projects/Projects.js'
+import About from './components/About/About.js'
+import Contact from './components/Contact/Contact.js'
+import Skills from './components/Skills/Skills.js'
+import Footer from './components/Footer/Footer.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-      <p>Max Hsu</p>
-        <img src={logo} className="App-logo" alt="logo" />
-
-
-        <p>software engineer</p>
-        <p>pixel artist</p>
-        <p>retired dancer</p>
-        <p>dry humor enthusiast</p>
-
-      </header>
+      <Navbar />
+      <Landing />
+      <Projects />
+      <About />
+      <Skills />
+      <Contact />
+      <Footer />
     </div>
   );
 }

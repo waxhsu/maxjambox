@@ -1,6 +1,6 @@
 .Projects{
     display: flex;
     /* justify-content: space-evenly; */
-    background-color: #282c34;
+
     min-height: 40vh;
   }
