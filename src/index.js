@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import background from './images/paper_bg.png';
 import reportWebVitals from './reportWebVitals';
 
 
-import { JjDeDaGg } from './JjDeDaGg.js';
+// import { JjDeDaGg } from './other/JjDeDaGg.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,8 +14,10 @@ root.render(
 
     <App />
 
-    <JjDeDaGg />
- 
+    {/* <JjDeDaGg /> */}
+    <div>
+      <img src={background} />
+    </div>
   </React.StrictMode>
 );
 

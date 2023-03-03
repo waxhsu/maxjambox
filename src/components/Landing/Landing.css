@@ -1,6 +1,24 @@
+.Landing {
+  background-color: goldenrod;
+  max-height: 80vh;
+}
+
 .myName {
-  min-height: 20vh;
-  font-size: 52px;
-  padding: 100px 0 0 0;
-  
+  min-height: 5vh;
+  font-size: 100px;
+  padding: 125px 0 0 0;
+}
+
+.descVSFace {
+  padding: 125px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.portrait img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
