@@ -14,7 +14,7 @@ function Landing(){
 
             <Slider
         className='slider'
-        autoplay={3000}
+        autoplay={500}
         previousButton={null}
         nextButton={null}
       >
