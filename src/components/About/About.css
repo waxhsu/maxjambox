@@ -1,0 +1,25 @@
+.About{
+    background-color: grey;
+    min-height: 60vh;
+    padding-bottom: 10vh;
+    border: 1px red solid;
+    }
+
+.aboutGrid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.aboutText{
+    border: 1px green solid;
+    width: 40%;
+}
+
+.aboutGrid > img{
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+}
+
+
