@@ -1,6 +1,8 @@
 import './About.css';
-import maxDance from '../../images/justedebout.png';
-import terrarium from '../../images/terradventure.jpg';
+// import maxDance from '../../images/justedebout.png';
+// import terrarium from '../../images/terradventure.jpg';
+import placeholder1 from '../../images/placeholder1.png';
+import placeholder3 from '../../images/placeholder3.gif';
 
 function About() {
     return (
@@ -10,15 +12,22 @@ function About() {
             </div>
 
             <div className="aboutGrid">
+            <div className='aboutImages'>
+                        {/* <img src={maxDance} /> */}
+                        {/* <img src={terrarium} /> */}
+                        <img src={placeholder1} />
+                        <img src={placeholder3} />
+                        
+
+
+
+                    </div>
                     <div className="aboutText">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae lectus leo. Sed convallis, magna sed consectetur auctor, massa nisi finibus justo, eu consequat ante dui sit amet magna. Nullam in fringilla arcu. Duis commodo a est quis aliquet. Nunc blandit est eu mauris consectetur viverra eget eu metus.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae lectus leo. Sed convallis, magna sed consectetur auctor, massa nisi finibus justo, eu consequat ante dui sit amet magna. Nullam in fringilla arcu. Duis commodo a est quis aliquet. Nunc blandit est eu mauris consectetur viverra eget eu metus.</p>
                     </div>
 
-                    {/* <div className='aboutImages'> */}
-                        <img src={maxDance} />
-                        <img src={terrarium} />
-                    {/* </div> */}
+
             </div>
         </div>
     );

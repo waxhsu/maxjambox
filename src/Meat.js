@@ -56,10 +56,10 @@ export const PROJECTS = [
     src: projects_placeholder,
     desc: `A simple quiz game to test your knowledge using the Pokémon API`,
   },
-  {
-    name: `Three Man dice game`,
-    src: projects_placeholder,
-    desc: `A classic Taiwanese dice game where you try to not be the 3-man`,
-  },
+  // {
+  //   name: `Three Man dice game`,
+  //   src: projects_placeholder,
+  //   desc: `A classic Taiwanese dice game where you try to not be the 3-man`,
+  // },
   
 ]

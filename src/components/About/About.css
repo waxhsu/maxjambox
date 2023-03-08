@@ -3,23 +3,39 @@
     min-height: 60vh;
     padding-bottom: 10vh;
     border: 1px red solid;
+
     }
 
 .aboutGrid {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px yellow solid;
+    padding: 0 5% 0 5%;
+
+}
+
+.aboutImages{
+    /* border: 4px teal solid; */
+    display: flex;
+    /* justify-content: flex-end; */
+    width: 50%;
+    justify-content: center;
+    border: 1px blue solid;
 }
 
 .aboutText{
-    border: 1px green solid;
-    width: 40%;
+    border: 1px red solid;
+    width: 90%;
 }
 
-.aboutGrid > img{
-    display: flex;
-    flex-direction: column;
-    max-width: 45%;
+
+
+.aboutImages img{
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 50%;
+    height: auto;
+    /* border: 5px white solid; */
 }
 
 
