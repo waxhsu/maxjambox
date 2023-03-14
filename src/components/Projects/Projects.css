@@ -1,15 +1,23 @@
 .Projects{
-  /* justify-content: space-evenly; */
-  background-color: grey;
   min-height: 60vh;
   padding-bottom: 10vh;
-  border: 1px red solid;
+  padding-left: 20%;
+  padding-right: 20%;
   }
 
 .projectGrid {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  /* filter: brightness(50%); */
+}
+
+h3 {
+  font-size: x-large;
+}
+
+.languageText {
+  font-size: small;
 }
 
 .projectContainer{
@@ -17,7 +25,9 @@
   width: 45%;
   max-width: 50%;
   border: 1px blue solid;
-  padding-bottom: 5vh;
+  padding: 0 1vh 5vh 1vh;
+  margin-bottom: 1vh;
+
 }
 
 
@@ -32,15 +42,14 @@
 
 .projectBox {
   position: relative;
-  /* width: 50%;
-  max-width: 50%; */
   margin: auto;
   overflow: hidden;
   border: 1px green solid;
+  margin: 10%;
 }
 
 .projectBox .contentOverlay {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(236, 236, 236, 0.9);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -68,7 +77,7 @@
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
-  width: 100%;
+  width: 60%;
   top: 50%;
   left: 50%;
   opacity: 0;

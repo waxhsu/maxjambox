@@ -1,4 +1,4 @@
-import projects_placeholder from './images/projects_placeholder.png';
+import projects_placeholder from './images/placeholder4.gif';
 
 export const TITLES = [
   {
@@ -11,7 +11,7 @@ export const TITLES = [
       name: 'Retired dancer',
   },
   {
-      name: 'Productivity enthusiast',
+      name: 'Productivity coach',
   },
 ];
 
@@ -47,7 +47,7 @@ export const PROJECTS = [
     desc: `Webstore specialized in climbing themed apparels`,
   },
   {
-    name: `Very Average Service Provider Service`,
+    name: `Average Service Provider Service`,
     src: projects_placeholder,
     desc: `A dry humor website because haha lol`,
   },

@@ -1,42 +1,39 @@
 .About{
-    background-color: grey;
     min-height: 60vh;
     padding-bottom: 10vh;
-    border: 1px red solid;
-
+    
     }
 
 .aboutGrid {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px yellow solid;
+    /* border: 1px yellow solid; */
+    /* max-width: 80%; */
     padding: 0 5% 0 5%;
 
 }
 
 .aboutImages{
-    /* border: 4px teal solid; */
     display: flex;
-    /* justify-content: flex-end; */
     /* width: 50%; */
     justify-content: center;
     border: 1px blue solid;
 }
 
 .containerText{
-    /* border: 4px teal solid; */
-
-    /* justify-content: flex-end; */
-    /* width: 50%; */
     display: flex;
     justify-content: center;
-    border: 3px purple solid;
+    border: 1px purple solid;
 }
 
 .aboutText{
     border: 1px red solid;
     width: 65%;
+    padding: 0 5% 0 5%;
+    text-align: left;
+    font-size: large;
+    font-weight: 450;
     /* display: flex; */
     /* align-items: flex-end; */
 }
@@ -46,7 +43,7 @@
 .aboutImg{
     /* display: flex; */
     /* flex-direction: column; */
-    width: 40%;
+    width: 25%;
     height: auto;
     /* border: 5px white solid; */
 }

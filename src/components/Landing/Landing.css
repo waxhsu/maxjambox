@@ -1,6 +1,5 @@
 .Landing {
-  background-color: goldenrod;
-  max-height: 80vh;
+  max-height: 100vh;
 }
 
 .myName {
@@ -14,8 +13,6 @@
   display: flex;
   justify-content: center;
 }
-
-
 
 .portrait img {
   width: 300px;

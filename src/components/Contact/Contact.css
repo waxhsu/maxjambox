@@ -1,9 +1,9 @@
 .Contact{
     /* justify-content: space-evenly; */
-    background-color: grey;
-    min-height: 60vh;
+    /* background-color: grey; */
+    min-height: 80vh;
     padding-bottom: 10vh;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     }
 
 .inputForm {
