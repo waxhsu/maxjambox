@@ -63,3 +63,16 @@ export const PROJECTS = [
   // },
   
 ]
+
+
+// export const ABOUT = [
+//   {
+//     name: `paragraph1`,
+//     desc: `something about discipline and BEING FRICKING SELF-TAUGHT`,
+//   },
+//   {
+//     name: `paragraph2`,
+//     desc: `other interesting stuff like: DANCING // TERRARIUM // PIXEL ART // PRODUCTIVITY COACHING`,
+//   },
+  
+// ]

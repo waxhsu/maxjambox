@@ -9,6 +9,7 @@
 .aboutGrid {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     border: 1px yellow solid;
     padding: 0 5% 0 5%;
 
@@ -18,22 +19,34 @@
     /* border: 4px teal solid; */
     display: flex;
     /* justify-content: flex-end; */
-    width: 50%;
+    /* width: 50%; */
     justify-content: center;
     border: 1px blue solid;
 }
 
+.containerText{
+    /* border: 4px teal solid; */
+
+    /* justify-content: flex-end; */
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    border: 3px purple solid;
+}
+
 .aboutText{
     border: 1px red solid;
-    width: 90%;
+    width: 65%;
+    /* display: flex; */
+    /* align-items: flex-end; */
 }
 
 
 
-.aboutImages img{
+.aboutImg{
     /* display: flex; */
     /* flex-direction: column; */
-    width: 50%;
+    width: 40%;
     height: auto;
     /* border: 5px white solid; */
 }

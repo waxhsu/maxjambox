@@ -11,21 +11,34 @@ function About() {
                 <h1>About Me</h1>
             </div>
 
-            <div className="aboutGrid">
-            <div className='aboutImages'>
-                        {/* <img src={maxDance} /> */}
-                        {/* <img src={terrarium} /> */}
-                        <img src={placeholder1} />
-                        <img src={placeholder3} />
-                        
+            <div className='aboutGrid'>
+                <div className='aboutImages'>
+                    {/* <img src={maxDance} /> */}
+                    {/* <img src={terrarium} /> */}
+                    <img className='aboutImg' src={placeholder1} />
+                    <img className='aboutImg' src={placeholder3} />
+                
+
+                </div>
+                <div className='containerText'>
+                <div className='aboutText'>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae lectus leo. Sed convallis, magna sed consectetur auctor, massa nisi finibus justo, eu consequat ante dui sit amet magna. Nullam in fringilla arcu. Duis commodo a est quis aliquet. Nunc blandit est eu mauris consectetur viverra eget eu metus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae lectus leo. Sed convallis, magna sed consectetur auctor, massa nisi finibus justo, eu consequat ante dui sit amet magna. Nullam in fringilla arcu. Duis commodo a est quis aliquet. Nunc blandit est eu mauris consectetur viverra eget eu metus.</p>
+                </div>
+                </div>
 
 
+                {/* <div className='aboutText'>
+                    {ABOUT.map((about) => {
+                        return (
+                            <div>
+                                <p>{about.desc}</p>
+                            </div>
+                        );
+                        })}
+                    </div> */}
 
-                    </div>
-                    <div className="aboutText">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae lectus leo. Sed convallis, magna sed consectetur auctor, massa nisi finibus justo, eu consequat ante dui sit amet magna. Nullam in fringilla arcu. Duis commodo a est quis aliquet. Nunc blandit est eu mauris consectetur viverra eget eu metus.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae lectus leo. Sed convallis, magna sed consectetur auctor, massa nisi finibus justo, eu consequat ante dui sit amet magna. Nullam in fringilla arcu. Duis commodo a est quis aliquet. Nunc blandit est eu mauris consectetur viverra eget eu metus.</p>
-                    </div>
+
 
 
             </div>
