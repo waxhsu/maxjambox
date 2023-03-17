@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/maxjambox/static/css/main.7057dd18.css",
+    "main.js": "/maxjambox/static/js/main.876f3ee9.js",
+    "static/js/787.1ed0c42c.chunk.js": "/maxjambox/static/js/787.1ed0c42c.chunk.js",
+    "static/media/MAX.png": "/maxjambox/static/media/MAX.23be47db9426c0ffca91.png",
+    "static/media/paper_bg.png": "/maxjambox/static/media/paper_bg.d6716a294df0f91e1376.png",
+    "static/media/placeholder1.png": "/maxjambox/static/media/placeholder1.95f7d70da6f00228f811.png",
+    "static/media/placeholder4.gif": "/maxjambox/static/media/placeholder4.0cbc80c1eaf2deba2f50.gif",
+    "static/media/placeholder3.gif": "/maxjambox/static/media/placeholder3.88b47a0048e25e1e833c.gif",
+    "index.html": "/maxjambox/index.html",
+    "main.7057dd18.css.map": "/maxjambox/static/css/main.7057dd18.css.map",
+    "main.876f3ee9.js.map": "/maxjambox/static/js/main.876f3ee9.js.map",
+    "787.1ed0c42c.chunk.js.map": "/maxjambox/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7057dd18.css",
+    "static/js/main.876f3ee9.js"
+  ]
+}
